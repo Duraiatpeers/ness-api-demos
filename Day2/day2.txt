@@ -1,0 +1,53 @@
+
+Client - Server
+Request --> server
+       Response <---
+
+
+User Registration
+
+UI Form -->  Component --> Service --> Controller -> Service --> Repository --> Database
+
+  Response : User created successfully
+
+
+Request
+    - URI / Endpoint
+        http://localhost:8080/api/v1/user
+        http://localhost:8080/api/v1/user/2
+        http://localhost:8080/api/v1/user?userid=2&emailid='sam@gmail.com'
+    - http method / verb (Get, Post, Put, Delete,Patch,Options)
+    - payload / data
+    - header
+
+Response
+    - data
+    - header
+    - status
+    - duration
+
+
+Http Methods(Get, Post, Put, Delete,Patch,Options):
+    - Safe
+    - Idempotent
+
+
+Status code:
+1xx - Informational
+2xx - Success
+    - 200 - Success
+    - 201 - Created
+    - 204 - No data
+3xx - Redirection
+    - 302 - redirection
+4xx - Client errors
+    - 400 - Bad request
+    - 401 - Unauthorized
+    - 403 - Forbidden
+    - 404 - Resource not found
+    - 405 - Method not supported
+    - 409 - Conflict
+    - 415 - Mediatype not supported
+5xx - Server error
+    - 500 - Internal server error
+

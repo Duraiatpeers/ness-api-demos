@@ -1,0 +1,17 @@
+Pytest
+  - Unit testing framework
+  - Open source
+  - simple assert statements
+  - Fixture
+  - Parameterization
+  - Support for grouping, ordering, parallel execution, parameterization
+
+Installation:
+ - pip install pytest
+ - pytest --version
+ - pip list
+ - pip install pytest --upgrade
+
+
+
+

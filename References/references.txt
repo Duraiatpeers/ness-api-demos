@@ -1,0 +1,6 @@
+https://martinfowler.com/articles/practical-test-pyramid.html
+
+https://restfulapi.net/richardson-maturity-model/
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
+
