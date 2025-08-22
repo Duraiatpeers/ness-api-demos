@@ -1,0 +1,9 @@
+API Testing
+
+Mandatory - https://petstore3.swagger.io/
+
+8 endpoints
+    - 2 each for GET, POST, DELETE, UPDATE
+
+Practice - Endpoints in https://reqres.in/
+

@@ -1,3 +1,6 @@
+import pytest
+
+
 def test_get_user(api, base_url):
     resp = api.get(f"{base_url}/users/2", timeout=10)
     assert resp.status_code == 200
